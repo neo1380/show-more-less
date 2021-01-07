@@ -1,0 +1,8 @@
+<div [innerHTML]="currentText"></div>
+<a
+  [class.hidden]="hideToggle"
+  href="javascript:void()"
+  style="color: blue"
+  (click)="toggleView()"
+  >Read {{ isCollapsed ? "more" : "less" }}</a
+>
